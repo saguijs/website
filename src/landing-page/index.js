@@ -49,6 +49,10 @@ export default React.createClass({
             <p>Sagui is all about good defaults. It is the single development dependency you need to worry about, taking care of build, tests and the development server.</p>
           </section>
         </article>
+
+        <footer>
+          <p><a href='https://thenounproject.com/term/monkey/267835/'>Monkey artwork</a> created by Ryan Spiering from the Noum Project.</p>
+        </footer>
       </main>
     )
   }

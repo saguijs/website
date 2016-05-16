@@ -1,6 +1,5 @@
 body {
-  // background: #4c0b68;
-  color: white;
+  color: #444;
   font: 17px/1.7 "Helvetica Neue", Helvetica, Sans-Serif;
   text-align: center;
   padding: 0;
@@ -9,10 +8,17 @@ body {
 
 header {
   background: linear-gradient(to bottom right, #753F8C, #1C0127);
+  color: white;
+
   img {
     width: 120px;
   }
   padding: 5em;
+}
+
+a {
+  text-decoration: none;
+  color: #753F8C;
 }
 
 strong {
@@ -37,14 +43,14 @@ nav {
   a {
     display: block;
     padding: 1.3em;
-    text-decoration: none;
-    color: #753F8C;
   }
 }
 
-article {
-  color: #444;
+footer {
+  font-size: 0.8em;
+}
 
+article {
   section {
     max-width: 900px;
     margin: 0 auto;
