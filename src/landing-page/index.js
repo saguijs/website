@@ -46,7 +46,7 @@ export default React.createClass({
         <article>
           <section>
             <h1>Focus on your code</h1>
-            <p>Sagui is all about good defaults. It is the single development dependency you need to worry about, taking care of build, tests and the development server.</p>
+            <p>Sagui is all about good defaults. It is the <strong>single development dependency</strong> you need to worry about, taking care of build, tests and the development server.</p>
           </section>
         </article>
 
