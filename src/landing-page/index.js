@@ -40,6 +40,8 @@ export default React.createClass({
             <code>
               npm start
             </code>
+
+            <p>That is it! Sagui bootstraps its configuration files and a project for you, so <strong>no extra step is required</strong>!</p>
           </section>
         </article>
 
