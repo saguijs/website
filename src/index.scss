@@ -8,7 +8,6 @@ body {
 }
 
 header {
-  margin-top: 4.25em;
   background: linear-gradient(to bottom right, #753F8C, #1C0127);
   img {
     width: 120px;
@@ -20,11 +19,41 @@ strong {
   color: #753F8C;
 }
 
-article {
-  color: #444;
-  padding: 1em;
+nav {
   max-width: 900px;
   margin: 0 auto;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    display: inline;
+    float: left;
+  }
+
+  a {
+    display: block;
+    padding: 1.3em;
+    text-decoration: none;
+    color: #753F8C;
+  }
+}
+
+article {
+  color: #444;
+
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3em 1em;
+  }
+
+  &:nth-child(2n+0) {
+    background: #F9F9F9;
+  }
 
   h1 {
     font-size: 2em;
