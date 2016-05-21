@@ -8,6 +8,9 @@ export default React.createClass({
         <nav>
           <ul>
             <li>
+              <a href='https://github.com/saguijs/sagui#configuration'>Documentation</a>
+            </li>
+            <li>
               <a href='https://github.com/saguijs/sagui'>Github</a>
             </li>
             <li>
