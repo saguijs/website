@@ -14,7 +14,7 @@ export default React.createClass({
               <a href='https://github.com/saguijs/sagui'>Github</a>
             </li>
             <li>
-              <a href='https://www.npmjs.com/package/sagui'>NPM</a>
+              <a href='https://www.npmjs.com/package/sagui'>npm</a>
             </li>
           </ul>
         </nav>
