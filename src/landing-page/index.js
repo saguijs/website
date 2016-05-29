@@ -11,7 +11,7 @@ export default React.createClass({
               <a href='https://github.com/saguijs/sagui#features'>Documentation</a>
             </li>
             <li>
-              <a href='https://github.com/saguijs/sagui'>Github</a>
+              <a href='https://github.com/saguijs/sagui'>GitHub</a>
             </li>
             <li>
               <a href='https://www.npmjs.com/package/sagui'>npm</a>
@@ -56,7 +56,7 @@ export default React.createClass({
         </article>
 
         <footer>
-          <p><a href='https://thenounproject.com/term/monkey/267835/'>Monkey artwork</a> created by Ryan Spiering from the Noum Project.</p>
+          <p><a href='https://thenounproject.com/term/monkey/267835/'>Monkey artwork</a> created by Ryan Spiering from the Noun Project.</p>
         </footer>
       </main>
     )
