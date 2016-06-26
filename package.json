@@ -8,15 +8,18 @@
     "react-dom": "^15.0.2"
   },
   "devDependencies": {
-    "sagui": "^5.0.0-rc.3"
+    "sagui": "^6.0.0-rc.5"
   },
   "scripts": {
+    "build": "sagui build",
+    "develop": "sagui develop --port 3000",
+    "dist": "NODE_ENV=production sagui build --optimize",
     "start": "npm run develop",
-    "test": "NODE_ENV=test karma start",
-    "test:watch": "npm run test -- --no-single-run --auto-watch",
-    "develop": "webpack-dev-server --port 3000 --host 0.0.0.0",
-    "build": "webpack --bail",
-    "dist": "NODE_ENV=production npm run build -- -p"
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "sagui lint",
+    "test:unit": "NODE_ENV=test sagui test",
+    "test:coverage": "npm run test:unit -- --coverage",
+    "test:unit:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "",
